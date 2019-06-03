@@ -1,0 +1,253 @@
+.top,
+.main-a,
+.main-b,
+.main-c,
+.main-d,
+.footer{
+	width: 1200px;
+	margin: 0 auto;
+}
+.top{
+	height: 80px;
+	background-color: #FFFFFF;
+}
+.top-c{
+	position: relative;
+}
+.top .top-c .logo{
+	float: left;
+	width: 186px;
+	height: 80px;
+}
+.top-c .logo .logo-top{
+	float: left;
+	width: 177px;
+	height: 26px;
+	margin-top: 23px;
+	margin-left: 7px;
+	background: url(../img/VERONICA.png) no-repeat center;
+}
+.top-c .logo .logo-bottom{
+	float: left;
+	width: 47px;
+	height: 9px;
+	margin-left: 73px;
+	margin-top: 7px;
+    background: url(../img/1820-2018.png) no-repeat center;
+}
+.top-c .navbar{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 734px;
+	height: 80px;
+}
+.top-c .navbar .navbar-list{
+	text-align: center;
+	line-height: 80px;
+}
+.navbar .navbar-list .list-item{
+	position: relative;
+	float: left;
+	width: 120px;
+	height: 100%;
+	margin-right: 24px;
+}
+.navbar .navbar-list .list-item a{
+	display: block;
+	font-size: 16px;
+	width: 100%;
+	height: 100%;
+	color: #707070;
+}
+.navbar-list .list-item .underline{
+	display:none;
+	position: absolute;
+	right: 30px;
+	bottom: 26px;
+	width: 40px;
+	height: 1px;
+	background-color: #B9AB77;
+}
+.navbar-list .list-item .underline.mr-d{
+	left: 45%;
+	width: 20px;
+}
+.navbar .navbar-list .list-item a:hover{
+	font-weight: bolder;
+	color: #1D1D1D;
+}
+.navbar-list .list-item:hover .underline{
+	display:block;
+}
+.navbar .navbar-list .list-item.active a{
+	color: #1D1D1D;
+	font-weight: bolder;
+
+}
+.navbar .navbar-list .list-item.active .underline.mr0{
+	display: block;
+}
+.header{
+	width: 100%;
+	height: 371px;
+}
+.header .img-c{
+	height: 270px;
+	background: url(../img/banner1.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.main{
+	width: 1200px;
+	height: 1687px;
+	margin: 0 auto;
+}
+.main .main-a{
+	width: 1080px;
+	height: 725px;
+	margin: 0 auto;
+}
+.main .main-a .brand{
+	width: 100%;
+	height: 128px;
+	text-align: center;
+}
+.main-a .brand .brand-cn{
+	font-size: 26px;
+	color: #444444;
+	line-height: 26px;
+}
+.main-a .brand .brand-en{
+	font-size: 16px;
+	line-height: 16px;
+	margin-top: 10px;
+	color: #C1C1C1;
+}
+.main .main-a .content{
+	width: 1080px;
+	height: 362px;
+}
+.main-a .content .img{
+	float: left;
+	width: 422px;
+	height: 314px;
+	background: url(../img/veronica01.png) no-repeat;
+}
+.main-a .content .text{
+	float: left;
+	width: 590px;
+	height: 313px;
+	font-size: 16px;
+	color: #787878;
+	line-height: 27px;
+	margin-left: 68px;
+	text-indent: 2em;
+}
+.main-a .text-down{
+	font-size: 16px;
+	color: #787878;
+	line-height: 27px;
+}
+.main .main-b{
+	width: 1080px;
+	height: 962px;
+}
+.main .main-b .contact{
+	width: 100%;
+	height: 128px;
+	text-align: center;
+}
+.main-b .contact .contact-cn{
+	font-size: 26px;
+	color: #444444;
+	line-height: 26px; 
+}
+.main-b .contact .contact-en{
+	font-size: 16px;
+	line-height: 16px;
+	margin-top: 10px;
+	color: #C1C1C1;
+}
+.main .main-b .img-b{
+	width: 1080px;
+	height: 345px;
+	background: url(../img/contact.png) no-repeat;
+}
+.main .main-b .title{
+	font-size: 26px;
+	line-height: 26px;
+	color: #373737;
+	margin-top: 34px;
+}
+.main .main-b .content{
+	font-size: 16px;
+	line-height: 22px;
+	color: #616060;
+	margin-top: 20px;
+}
+.main .main-b .img-c{
+	float: left;
+	width: 473px;
+	height: 263px;
+	margin-top: 40px;
+	background: url(../img/map.png) no-repeat;
+}
+.main .main-b .message{
+	float: left;
+	margin-top: 210px;
+	margin-left: 40px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #616060;
+	width: 220px;
+	height: 100px;
+}
+.footer{
+	height: 100px;
+	width: 100%;
+	background-color: #4D4D4D;
+}
+.footer .footer-c{
+	position: relative;
+	height: 100%;
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #F3F3F3;
+	overflow: hidden;
+}
+.footer .footer-c .footer-list{
+	float: left;
+	display: block;
+	margin-top: 32px;
+}
+.footer .footer-c .footer-list.b{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.footer-c .footer-list.b .list-item.shangb{
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin-top: 3px;
+	line-height: 10px;
+	background: url(../img/shangb.png)  no-repeat;
+}
+.footer-c .footer-list.b .list-item{
+	margin-left: 60px;
+}
+.footer-c .footer-list.b .list-item.two{
+	margin-left: 3px;
+}
+.footer-c .footer-list.b .list-item a{
+	color: #F3F3F3;
+}
+.footer-c .footer-list.b .list-item a:hover{
+	color: #282828;
+}
+.footer .footer-d{
+	display: block;
+	margin-top: 57px;
+	margin-left: 0;
+}

@@ -1,0 +1,247 @@
+.top,
+.main-a,
+.main-b,
+.main-c,
+.main-d,
+.footer{
+	width: 1200px;
+	margin: 0 auto;
+}
+.top{
+	height: 80px;
+	background-color: #FFFFFF;
+}
+.top-c{
+	position: relative;
+}
+.top .top-c .logo{
+	float: left;
+	width: 186px;
+	height: 80px;
+}
+.top-c .logo .logo-top{
+	float: left;
+	width: 177px;
+	height: 26px;
+	margin-top: 23px;
+	margin-left: 7px;
+	background: url(../img/VERONICA.png) no-repeat center;
+}
+.top-c .logo .logo-bottom{
+	float: left;
+	width: 47px;
+	height: 9px;
+	margin-left: 73px;
+	margin-top: 7px;
+    background: url(../img/1820-2018.png) no-repeat center;
+}
+.top-c .navbar{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 734px;
+	height: 80px;
+}
+.top-c .navbar .navbar-list{
+	text-align: center;
+	line-height: 80px;
+}
+.navbar .navbar-list .list-item{
+	position: relative;
+	float: left;
+	width: 120px;
+	height: 100%;
+	margin-right: 24px;
+}
+.navbar .navbar-list .list-item a{
+	display: block;
+	font-size: 16px;
+	width: 100%;
+	height: 100%;
+	color: #707070;
+}
+.navbar-list .list-item .underline{
+	display:none;
+	position: absolute;
+	right: 30px;
+	bottom: 26px;
+	width: 40px;
+	height: 1px;
+	background-color: #B9AB77;
+}
+.navbar-list .list-item .underline.mr-d{
+	left: 45%;
+	width: 20px;
+}
+.navbar .navbar-list .list-item a:hover{
+	font-weight: bolder;
+	color: #1D1D1D;
+}
+.navbar-list .list-item:hover .underline{
+	display:block;
+}
+.navbar .navbar-list .list-item.active a{
+	color: #1D1D1D;
+	font-weight: bolder;
+
+}
+.navbar .navbar-list .list-item.active .underline.mr0{
+	display: block;
+}
+.header{
+	width: 100%;
+	height: 290px;
+}
+.header .img-a{
+	height: 269px;
+	background: url(../img/header.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.main{
+	width: 1200px;
+	height: 1021px;
+	margin: 0 auto;
+}
+.main .designers{
+	width: 100%;
+	height: 190px;
+	text-align: center;
+	overflow: hidden;
+}
+.main .designers .designers-cn{
+	font-size: 26px;
+	line-height: 26px;
+	margin-top: 80px;
+	color: #444444;
+}
+.main .designers .designers-en{
+	font-size: 16px;
+	line-height: 16px;
+	color: #C1C1C1;
+	margin-top: 10px;
+}
+.main .message{
+	width: 1200px;
+	height: 831px;
+}
+.main .message .message-list{
+	float: left;
+	width: 300px;
+	height: 831px;
+	cursor: pointer;
+}
+.main .message .message-list:hover .more-c{
+	display: block;
+}
+.main .message .message-list:hover .unline{
+	display: block;
+}
+.message .message-list .img{
+	width: 300px;
+	height: 450px;
+	background: url(../img/bgr.png) no-repeat center;
+}
+.message .message-list.a .img{
+	background: url(../img/jenny.png) no-repeat center;
+}
+.message .message-list.c .img{
+	background: url(../img/rankin.png) no-repeat center;
+}
+.message .message-list .name{
+	font-size: 18px;
+	line-height: 18px;
+	text-align: center;
+	color: #2E2E2E;
+	margin-top: 42px;
+}
+.message .message-list .position,.details{
+	font-size: 13px;
+	line-height: 14px;
+	text-align: center;
+	margin-top: 20px;
+	color: #A4A4A4;
+}
+.message .message-list .details{
+	display: block;
+	margin-top: 36px;
+}
+.message .message-list .more-c{
+	display: none;
+	width: 148px;
+	height: 43px;
+	color: #B9AB77;
+	font-size: 12px;
+	line-height: 43px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+	border: 1px solid #B9AB77;
+}
+.message .message-list .unline{
+	display: none;
+	width: 300px;
+	height: 2px;
+	background-color: #B9AB77;
+	margin-top: 33px;
+}
+.message .message-list .more-c:hover{
+	background-color: #646464;
+}
+.main .message .message-list.b{
+	margin: 0 150px;
+}
+.message .message-list.a .more-c.active{
+	display: block;
+}
+.message .message-list.a .unline.active{
+	display: block;
+}
+.footer{
+	height: 100px;
+	width: 100%;
+	background-color: #4D4D4D;
+}
+.footer .footer-c{
+	position: relative;
+	height: 100%;
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #F3F3F3;
+	overflow: hidden;
+}
+.footer .footer-c .footer-list{
+	float: left;
+	display: block;
+	margin-top: 32px;
+}
+.footer .footer-c .footer-list.b{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.footer-c .footer-list.b .list-item.shangb{
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin-top: 3px;
+	line-height: 10px;
+	background: url(../img/shangb.png)  no-repeat;
+}
+.footer-c .footer-list.b .list-item{
+	margin-left: 60px;
+}
+.footer-c .footer-list.b .list-item.two{
+	margin-left: 3px;
+}
+.footer-c .footer-list.b .list-item a{
+	color: #F3F3F3;
+}
+.footer-c .footer-list.b .list-item a:hover{
+	color: #282828;
+}
+.footer .footer-d{
+	display: block;
+	margin-top: 57px;
+	margin-left: 0;
+}
